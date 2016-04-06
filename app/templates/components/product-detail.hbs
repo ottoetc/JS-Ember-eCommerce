@@ -1,10 +1,10 @@
 <div>
-  <ul>
-    <li><img src='{{product.image}}'></li>
-    <li>{{product.name}}</li>
-    <li>{{product.price}}</li>
-    <li>{{product.description}}</li>
-    <li>{{product.category}}</li>
-    <li>{{product.stock}}</li>
-  </ul>
+
+    <img src='{{product.image}}'>
+    <h2>{{product.name}}</h2>
+    <h3>${{product.price}}</h3>
+    <h3>{{product.description}}</h3>
+    <h3>{{product.category}}</h3>
+    <h3>Number in stock: {{product.stock}}</h3>
+    <button {{action 'addToCart' product}}>Add to Cart</button>
 </div>

@@ -1,7 +1,5 @@
 <div>
-  <ul>
-    {{#link-to 'product-page' product.id}}<li><img src='{{product.image}}'></li>{{/link-to}}
-    <li>{{product.name}}</li>
-    <li>{{product.price}}</li>
-  </ul>
+  {{#link-to 'product-page' product.id}}<img src='{{product.image}}'>{{/link-to}}
+  <h2>{{product.name}}</h2>
+  <h2>${{product.price}}</h2>
 </div>
