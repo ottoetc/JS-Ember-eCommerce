@@ -2,4 +2,5 @@
   {{#link-to 'product-page' product.id}}<img src='{{product.image}}'>{{/link-to}}
   <h2>{{product.name}}</h2>
   <h2>${{product.price}}</h2>
+  <button {{action 'addToCart' product}}>Add to Cart</button>
 </div>
