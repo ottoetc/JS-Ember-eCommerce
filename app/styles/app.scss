@@ -26,12 +26,27 @@ h1 {
   float: right;
 }
 
+p {
+  font-size: 14px;
+  color: white;
+}
+
 #header-top {
+  background-color: #f6ae2d;
+}
+
+
+.card {
+  background-color: #33658a;
+}
+
+#header-bottom {
+  background-color: #2f4858;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 body {
-  background-color: #e3f2fd;
+  background-color: #2f4858;
 }
 // #header-bottom {
 // //   padding-top: 10px;
