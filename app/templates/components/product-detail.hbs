@@ -1,10 +1,16 @@
-<div>
-
-    <img src='{{product.image}}'>
-    <h2>{{product.name}}</h2>
-    <h3>${{product.price}}</h3>
-    <h3>{{product.description}}</h3>
-    <h3>{{product.category}}</h3>
-    <h3>Number in stock: {{product.stock}}</h3>
-    <button {{action 'addToCart' product}}>Add to Cart</button>
+<div class="col s12">
+  <div class="card">
+    <div class="card-image">
+      <img src='{{product.image}}'>
+      <span class="card-title">{{product.name}}</span>
+    </div>
+    <div class="card-content white-text">
+      <p>{{product.description}}</p>
+      <p>Number in stock: {{product.stock}}</p>
+    </div>
+    <div class="card-action">
+      <p class="price">${{product.price}}</p>
+      <button class="price-button" {{action 'addToCart' product}}>Add to Cart</button>
+    </div>
+  </div>
 </div>
