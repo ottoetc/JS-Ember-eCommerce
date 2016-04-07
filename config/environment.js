@@ -6,7 +6,7 @@ module.exports = function(environment) {
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
     firebase: 'https://emberecommerce.firebaseio.com/',
-    baseURL: '/',
+    baseURL: 'emberecommerce.firebaseio.com/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
@@ -18,6 +18,9 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+    sassOptions: {
+      includePaths: ['bower_components/materialize/sass']
     }
   };
 
