@@ -6,7 +6,7 @@ module.exports = function(environment) {
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
     firebase: 'https://emberecommerce.firebaseio.com/',
-    baseURL: 'emberecommerce.firebaseio.com/',
+    baseURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {

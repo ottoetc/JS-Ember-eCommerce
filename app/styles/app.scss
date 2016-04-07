@@ -1,2 +1,39 @@
 @import 'materialize';
 @import 'ember-cli-materialize';
+
+// *,
+// *::before,
+// *::after {
+//   -webkit-box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   box-sizing: border-box; }
+//
+// html, body {
+//   margin: 0;
+//   padding: 0;
+// }
+
+h1 {
+  text-align: center;
+  margin: 0%;
+}
+
+.price {
+  display: inline;
+}
+
+.price-button {
+  float: right;
+}
+
+#header-top {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+body {
+  background-color: #e3f2fd;
+}
+// #header-bottom {
+// //   padding-top: 10px;
+// //   padding-bottom: 10px;
+// // }

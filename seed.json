@@ -1,21 +1,56 @@
 {
 	"products": [{
 		"name": "Hydro Flask 22 oz water bottle",
-		"image": "http://www.home-brew.com/x/images/T/LycheeRed.png",
+		"image": "http://loremflickr.com/1024/768/camping",
 		"price": 50,
 		"stock": 10,
 		"category": "accessories",
 		"description": "Super water bottle. Red."
 	}, {
 		"name": "Nice sleeping bag",
-		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkOmkF0LFPLdj6JQFHmOEOcVQ357hK1VHeZSo9sf03xffk6SYcBQBnivE",
+		"image": "http://loremflickr.com/1024/768/camping",
 		"price": 250,
 		"stock": 20,
 		"category": "gear",
 		"description": "V fluffy"
 	}, {
 		"name": "Petzl headlamp",
-		"image": "http://media.midwayusa.com/productimages/880x660/Primary/653/653247.jpg",
+		"image": "http://loremflickr.com/1024/768/camping",
+		"price": 30,
+		"stock": 100,
+		"category": "accessories",
+		"description": "Super rad headlamp. Lights things up."
+	}, {
+		"name": "Petzl headlamp",
+		"image": "http://loremflickr.com/1024/768/camping",
+		"price": 30,
+		"stock": 100,
+		"category": "accessories",
+		"description": "Super rad headlamp. Lights things up."
+	}, {
+		"name": "Petzl headlamp",
+		"image": "http://loremflickr.com/1024/768/camping",
+		"price": 30,
+		"stock": 100,
+		"category": "accessories",
+		"description": "Super rad headlamp. Lights things up."
+	}, {
+		"name": "Petzl headlamp",
+		"image": "http://loremflickr.com/1024/768/camping",
+		"price": 30,
+		"stock": 100,
+		"category": "accessories",
+		"description": "Super rad headlamp. Lights things up."
+	}, {
+		"name": "Petzl headlamp",
+		"image": "http://loremflickr.com/1024/768/camping",
+		"price": 30,
+		"stock": 100,
+		"category": "accessories",
+		"description": "Super rad headlamp. Lights things up."
+	}, {
+		"name": "Petzl headlamp",
+		"image": "http://loremflickr.com/1024/768/camping",
 		"price": 30,
 		"stock": 100,
 		"category": "accessories",

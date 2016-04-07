@@ -1,6 +1,15 @@
-<div>
-  {{#link-to 'product-page' product.id}}<img src='{{product.image}}'>{{/link-to}}
-  <h2>{{product.name}}</h2>
-  <h2>${{product.price}}</h2>
-  <button {{action 'addToCart' product}}>Add to Cart</button>
+<div class="col s6 l3">
+  <div class="card small grey darken-1">
+    <div class="card-image">
+      {{#link-to 'product-page' product.id}}<img class="responsive-img" src='{{product.image}}'>{{/link-to}}
+    </div>
+    <div class="card-content blue-text">
+      <p>{{product.name}}</p>
+
+    </div>
+    <div class="card-action">
+      <p class="price">${{product.price}}</p>
+      <button class="price-button" {{action 'addToCart' product}}>Add to Cart</button>
+    </div>
+  </div>
 </div>
